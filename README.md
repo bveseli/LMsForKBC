@@ -20,7 +20,7 @@ As a language model we use BERT and as a knowledge base we use Wikidata. We publ
 @inproceedings{veseli2023kbc,
   title={Evaluating Language Models for Knowledge Base Completion},
   author={Blerta Veseli, Simon Razniewski, Sneha Singhania, Gerhard Weikum},
-  booktitle={In:  20th Extended Semantic Web Conference, 2023},
+  booktitle={In:  20th Extended Semantic Web Conference (ESWC), 2023},
   year={2023}
 }
 ```
