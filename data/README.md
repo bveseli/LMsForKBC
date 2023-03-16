@@ -10,15 +10,9 @@ Under the following conditions:
 
  Citing: when using this data set, cite the related paper "Evaluating Language Models for Knowledge Base      
          Completion" by [will be included upon publication]
-
- 
-####### experimentspy ########
-
-This folder contains python code used for evaluation. For easy-use, GitHub page will be created. 
-
     
     
-####### WD_Known #######
+# WD_Known
 
 This folder contains pickled files for 41 relations. Again, each file contains only the facts of one relation and which relation is specified by the filename. Each file contains only the triples from WD_KNOWN(without_labels) for whose subjects and objects a natural language label was also found.
 
@@ -34,12 +28,14 @@ Structure:
     If a subject has more than one valid object, it will appear more than one time in this list: one time for each valid object.
     
     
------ WD_Known/lama_format -----
+# WD_Known(lama_format)
 
 This folder contains the same triples per relation as in folder WD_Known, but in LAMA-format, so that using the LAMA Framework by Petroni et al. on WD-Known is easily possible. Please note that the triples, where subject and/or object has no label, have to be filtered before using LAMA. 
 
 
-###### missing_facts ######
+# missing_facts
+
+#### pickled-files
 
 Each file in this folder contains 10,000 sampled subjects per relation with missing objects in Wikidata. The subjects of each relation are conditioned on having the 1 (up to 2) most frequent relation-compatible entity type:
 
@@ -59,7 +55,7 @@ Structure:
         {subject_wikidataID:subject_label, ....}
         
         
------ missing_facts/manual_annotations -------
+#### mturk_annotations.csv
 
 This folder contains 50 high accuracy predictions (by BERT) for 50 missing facts per relation. File contains our annotations, as well as the mturk annotations (columns with prefix: mturk_)
 
