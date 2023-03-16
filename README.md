@@ -5,7 +5,10 @@
 
 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
+@inproceedings{veseli2023kbc,
+  title={Evaluating Language Models for Knowledge Base Completion},
+  author={Blerta Veseli, Simon Razniewski, Sneha Singhania, Gerhard Weikum},
+  booktitle={In:  20th Extended Semantic Web Conference, 2023},
+  year={2023}
 }
 ```
