@@ -64,6 +64,3 @@ Structure:
 This folder contains 50 high accuracy predictions (by BERT) for 50 missing facts per relation. File contains our annotations, as well as the mturk annotations (columns with prefix: mturk_)
 
 
-###### visualizations ######
-
-This folder contains visualizations of WD_Known per relation, e.g. the precision/recall curves reached by predicting each fact with BERT Large and the number of top 10 objects in relation to the number of all objects per relation. 
