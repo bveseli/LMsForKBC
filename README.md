@@ -10,7 +10,9 @@ As a language model we use BERT and as a knowledge base we use Wikidata. We publ
 
 ## Dataset
 
+
 ## Usage
+*easy-to-use code in progress*
 
 ## Reference
 
