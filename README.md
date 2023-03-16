@@ -1,7 +1,7 @@
 # LMsForKBC: Evaluating Language Models for Knowledge Base Completion
 
 
-![alt text](https://github.com/bveseli/LMsForKBC/blob/main/img/LMsForKBC.svg)
+![alt text](https://github.com/bveseli/LMsForKBC/blob/main/img/LMsForKBC(non_transparent).png)
 
 
 In our paper *Evaluating Language Models for Knowledge Base Completion* we analyze the feasibility of Knowledge Base Completion by using Language Models. 
