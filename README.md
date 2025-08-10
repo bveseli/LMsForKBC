@@ -9,7 +9,7 @@ As a language model we use BERT and as a knowledge base we use Wikidata. We publ
  
 
 ## Dataset
-Please find the WD_known dataset and the *unknown facts*, i.e. facts that are not present in WikiData, in the dataset folder. 
+Please find the WD_known dataset and the *unknown facts*, i.e. facts that are not present in WikiData, in the data folder. 
 ## Reference
 
 ```
